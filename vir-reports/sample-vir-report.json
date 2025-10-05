@@ -1,0 +1,48 @@
+{
+  "vir_id": "VIR-2024-SAMPLE",
+  "cve_id": "CVE-2024-SAMPLE",
+  "created_at": "2025-01-03T00:00:00.000Z",
+  "updated_at": "2025-01-03T00:00:00.000Z",
+  "status": "published",
+  "source": {
+    "nvd": {
+      "published": "2025-01-03T00:00:00.000",
+      "lastModified": "2025-01-03T00:00:00.000",
+      "vulnStatus": "Analyzed"
+    }
+  },
+  "vulnerability": {
+    "title": "Sample Vulnerability - Remote Code Execution",
+    "description": "This is a sample vulnerability description that demonstrates the structure and content of a VIR report. The vulnerability affects multiple software components and could allow remote attackers to execute arbitrary code.",
+    "severity": "HIGH",
+    "cvss_score": 8.5,
+    "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "affected_products": [
+      "Sample Software v1.0",
+      "Sample Software v1.1",
+      "Sample Software v2.0"
+    ],
+    "references": [
+      "https://example.com/security-advisory",
+      "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-SAMPLE"
+    ]
+  },
+  "enrichment": {
+    "research_summary": "Based on analysis of the vulnerability, this appears to be a critical remote code execution flaw affecting the authentication mechanism. The vulnerability has been actively exploited in the wild and affects multiple versions of the software.",
+    "additional_info": "Security researchers have identified multiple proof-of-concept exploits for this vulnerability. The vulnerability is particularly dangerous because it can be exploited without user interaction and affects the default configuration of the software.",
+    "threat_landscape": "This vulnerability is being actively exploited by multiple threat actor groups, including state-sponsored actors and cybercriminal organizations. The vulnerability has been added to the CISA Known Exploited Vulnerabilities catalog.",
+    "exploit_availability": "Public exploits are available for this vulnerability. Multiple proof-of-concept exploits have been published on GitHub and other platforms. The vulnerability is also included in popular penetration testing frameworks.",
+    "remediation_guidance": "Immediate action is required. Organizations should apply the latest security patches immediately. If patching is not possible, implement network segmentation and access controls to limit exposure. Monitor for signs of exploitation and consider implementing additional security controls."
+  },
+  "metadata": {
+    "enrichment_model": "gpt-4-turbo",
+    "processing_time": 15.2,
+    "data_quality_score": 0.95,
+    "enrichment_sources": [
+      "NIST NVD",
+      "CISA KEV",
+      "Security Research",
+      "Threat Intelligence"
+    ]
+  }
+}
