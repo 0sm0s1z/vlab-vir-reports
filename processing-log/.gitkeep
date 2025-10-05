@@ -1,0 +1,9 @@
+# Processing Log Directory
+
+This directory contains daily processing logs for the VIR MVP Flow.
+
+Logs are generated daily and contain information about:
+- Processed CVEs
+- Successful publications
+- Errors and failures
+- Performance metrics
