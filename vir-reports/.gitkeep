@@ -1,0 +1,5 @@
+# VIR Reports Directory
+
+This directory contains the generated Vulnerability Intelligence Reports (VIR) in JSON format.
+
+Each VIR report is named using the CVE ID format: `CVE-YYYY-NNNN.json`
